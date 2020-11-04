@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/build/tailwind.css" />
+    <title>Product Settings</title>
+  </head>
+  <body class="bg-gray-400 antialiased flex font-sans text-gray-900">
+    <form
+      class="rounded-lg p-8 space-y-6 mx-auto max-w-2xl w-full my-32 shadow-lg bg-white"
+    >
+      <div>
+        <h1 class="text-4xl font-bold">Product Settings</h1>
+        <p class="text-gray-600">
+          Changes you make will be visible to other users
+        </p>
+      </div>
+      <div>
+        <label class="mb-2 block" for="title">Title</label>
+        <input
+          value="Laptop"
+          type="text"
+          id="title"
+          class="px-4 py-2 w-full rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 block"
+        />
+      </div>
+      <div>
+        <p class="mb-2">Product Features</p>
+        <ul class="space-y-4">
+          <li class="space-x-2 flex">
+            <input
+              type="text"
+              value="Fast"
+              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+            />
+
+            <button type="button" class="">Delete</button>
+          </li>
+          <li class="space-x-2 flex">
+            <input
+              type="text"
+              value="Cheap"
+              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+            />
+
+            <button type="button" class="">Delete</button>
+          </li>
+          <li class="space-x-2 flex">
+            <input
+              type="text"
+              value="Perfect Quality"
+              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+            />
+
+            <button type="button" class="">Delete</button>
+          </li>
+        </ul>
+        <button type="button" class="">Add another feature</button>
+      </div>
+      <button type="button" class="">Delete Listing</button>
+      <button type="button" class="">Cancel</button>
+      <button type="button" class="">Update Listing</button>
+    </form>
+  </body>
+</html>

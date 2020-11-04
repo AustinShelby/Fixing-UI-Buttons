@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/build/tailwind.css" />
+    <title>Product Settings</title>
+  </head>
+  <body class="bg-gray-400 antialiased flex font-sans text-gray-900">
+    <form class="rounded-lg mx-auto max-w-2xl w-full my-32 shadow-lg bg-white">
+      <div class="px-8 pt-8 pb-4 space-y-6">
+        <div class="flex justify-between items-start mb-16">
+          <div>
+            <h1 class="text-4xl font-bold">Product Settings</h1>
+            <p class="text-gray-600">
+              Changes you make will be visible to other users
+            </p>
+          </div>
+          <button type="button" class="focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="w-8 text-gray-600 hover:text-gray-700 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <div>
+          <label class="mb-2 block" for="title">Title</label>
+          <input
+            value="Laptop"
+            type="text"
+            id="title"
+            class="px-4 py-2 w-full rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 block"
+          />
+        </div>
+        <div>
+          <p class="mb-2">Product Features</p>
+          <ul class="space-y-4">
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Fast"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+              />
+
+              <button
+                type="button"
+                class="px-4 text-gray-600 hover:text-gray-700 flex items-center focus:outline-none"
+              >
+                <svg
+                  class="w-5 stroke-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Cheap"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+              />
+
+              <button
+                type="button"
+                class="px-4 text-gray-600 hover:text-gray-700 flex items-center focus:outline-none"
+              >
+                <svg
+                  class="w-5 stroke-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Perfect Quality"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
+              />
+
+              <button
+                type="button"
+                class="px-4 text-gray-600 hover:text-gray-700 flex items-center focus:outline-none"
+              >
+                <svg
+                  class="w-5 stroke-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="py-2 focus:outline-none text-teal-600 rounded mt-4 flex"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="w-6 stroke-current mr-2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            Add another feature
+          </button>
+        </div>
+      </div>
+      <div class="flex justify-between bg-gray-100 px-8 py-6 rounded-b-lg">
+        <button
+          type="button"
+          class="py-2 rounded focus:outline-none text-teal-600 font-semibold"
+        >
+          Delete Listing
+        </button>
+        <div class="flex space-x-4">
+          <button
+            type="button"
+            class="px-4 py-2 rounded focus:outline-none border-2 border-gray-300 text-teal-600 font-semibold"
+          >
+            Cancel
+          </button>
+          <button
+            type="button"
+            class="px-4 py-2 rounded focus:outline-none bg-teal-600 text-white font-semibold"
+          >
+            Update Listing
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
