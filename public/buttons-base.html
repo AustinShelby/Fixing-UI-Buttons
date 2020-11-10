@@ -15,59 +15,62 @@
   </head>
   <body class="bg-gray-400 antialiased flex font-sans text-gray-900">
     <form
-      class="rounded-lg p-8 space-y-6 mx-auto max-w-2xl w-full my-32 shadow-lg bg-white"
+      class="rounded-lg mx-auto max-w-2xl w-full my-32 shadow-lg bg-white bg-white border-t-4 border-teal-600"
     >
-      <div>
-        <h1 class="text-4xl font-bold">Product Settings</h1>
-        <p class="text-gray-600">
-          Changes you make will be visible to other users
-        </p>
-      </div>
-      <div>
-        <label class="mb-2 block" for="title">Title</label>
-        <input
-          value="Laptop"
-          type="text"
-          id="title"
-          class="px-4 py-2 w-full rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 block"
-        />
-      </div>
-      <div>
-        <p class="mb-2">Product Features</p>
-        <ul class="space-y-4">
-          <li class="space-x-2 flex">
-            <input
-              type="text"
-              value="Fast"
-              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
-            />
+      <div class="px-8 pt-8 pb-4 space-y-6">
+        <div class="mb-16">
+          <h1 class="text-4xl font-bold">Product Settings</h1>
+          <p class="text-gray-600">
+            Changes you make will be visible to other users
+          </p>
+        </div>
+        <div>
+          <label class="mb-2 block" for="title">Title</label>
+          <input
+            value="Laptop"
+            type="text"
+            id="title"
+            class="px-4 py-2 w-full rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-500 block"
+          />
+        </div>
+        <div>
+          <p class="mb-2">Product Features</p>
+          <ul class="space-y-4">
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Fast"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-500 w-2/3"
+              />
 
-            <button type="button" class="">Delete</button>
-          </li>
-          <li class="space-x-2 flex">
-            <input
-              type="text"
-              value="Cheap"
-              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
-            />
+              <button type="button" class="">Delete</button>
+            </li>
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Cheap"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-500 w-2/3"
+              />
 
-            <button type="button" class="">Delete</button>
-          </li>
-          <li class="space-x-2 flex">
-            <input
-              type="text"
-              value="Perfect Quality"
-              class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-400 w-2/3"
-            />
-
-            <button type="button" class="">Delete</button>
-          </li>
-        </ul>
-        <button type="button" class="">Add another feature</button>
+              <button type="button" class="">Delete</button>
+            </li>
+            <li class="space-x-2 flex">
+              <input
+                type="text"
+                value="Perfect Quality"
+                class="px-4 py-2 rounded border border-gray-400 bg-gray-100 focus:outline-none focus:border-teal-500 w-2/3"
+              />
+              <button type="button" class="">Delete</button>
+            </li>
+          </ul>
+          <button type="button" class="">Add another feature</button>
+        </div>
       </div>
-      <button type="button" class="">Delete Listing</button>
-      <button type="button" class="">Cancel</button>
-      <button type="button" class="">Update Listing</button>
+      <div class="px-8 py-6">
+        <button type="button" class="">Delete</button>
+        <button type="button" class="">Submit</button>
+        <button type="button" class="">Cancel</button>
+      </div>
     </form>
   </body>
 </html>
